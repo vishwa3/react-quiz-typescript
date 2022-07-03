@@ -1,0 +1,14 @@
+.header {
+  font-family: Montserrat;
+  font-size: 8vw;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.divider {
+  margin: 10px;
+  width: 100%;
+  background-color: grey;
+}
