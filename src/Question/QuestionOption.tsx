@@ -31,6 +31,7 @@ const QuestionOption: React.FC<Props> = ({
       .sort((a, b) => a.sort - b.sort)
       .map(({ item }) => item);
     setOptions(shuffleOptions);
+    // eslint-disable-next-line
   }, [currentQuestion, questions]);
 
   const handleClick = (option: string) => {
